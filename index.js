@@ -30,3 +30,6 @@ class Ceo extends BoardMember {
     return "Welcome aboard!";
   }
 }
+
+const ted = new Ceo("Ted", "NY", "JS")
+console.log(ted.approve());
