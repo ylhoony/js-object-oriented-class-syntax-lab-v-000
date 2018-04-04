@@ -22,6 +22,10 @@ class BoardMember {
 }
 
 class Ceo extends BoardMember {
+  approve() {
+    super.approve();
+    return "Awesome!"
+  }
   hireEmployee() {
     return "Welcome aboard!";
   }
