@@ -22,14 +22,11 @@ class BoardMember {
 }
 
 class Ceo extends BoardMember {
-  approve() {
-    console.log(super.approve());
-    return "Awesome!"
-  }
+  // approve() {
+  //   console.log(super.approve());
+  //   return "Awesome!"
+  // }
   hireEmployee() {
     return "Welcome aboard!";
   }
 }
-
-const ted = new Ceo("Ted", "NY", "JS")
-console.log(ted.approve());
